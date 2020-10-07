@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/toolbar"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تسجيل دخول"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:id="@+id/text_view_login"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="البريد الالكتروني"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="كلمة المرور"
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress_login"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="دخول"
+            android:id="@+id/btn_login"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="هل نسيت كلمة المرور؟"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:id="@+id/forgot_password"
+            android:textColor="@color/colorPrimaryDark"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

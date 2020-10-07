@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "368405947170",
+    "firebase_url": "https://chatmessangerasmaa.firebaseio.com",
+    "project_id": "chatmessangerasmaa",
+    "storage_bucket": "chatmessangerasmaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368405947170:android:a60a704f68d0d7a9d3bb7b",
+        "android_client_info": {
+          "package_name": "com.emanmustafa.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368405947170-8lejifmsd5phptseoopi5fk79vcejsi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLMA9dV3Xa2pUj2GHg1rdaQiiF_JxEnd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368405947170-8lejifmsd5phptseoopi5fk79vcejsi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
